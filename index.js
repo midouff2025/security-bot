@@ -122,4 +122,5 @@ async function ensureMuteRole(guild) {
 
 
 // 🔐 أدخل التوكن هنا
-client.login('MTM4NzA3NTIxMDAxNTkzMjU2OQ.G8BZzA.1XC9f2RGz4X8QsJkhSTcgY_flJ-EOr_3zsP7-Y');
+client.login(process.env.TOKEN);
+
